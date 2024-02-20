@@ -1,0 +1,62 @@
+body {
+  box-sizing: border-box;
+}
+.h1 {
+  text-align: center;
+}
+.container {
+  width: 1620px;
+  margin: auto;
+}
+.market {
+  border: 2px solid black;
+}
+.img {
+  margin-left: 30px;
+  height: 130px;
+}
+.h2 {
+  font-size: 18px;
+}
+.text {
+  margin-left: 30px;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+.section:last-child {
+  border-bottom: none;
+}
+.card {
+  display: flex;
+  align-items: center;
+}
+.price {
+  font-size: 24px;
+  color: blue;
+  margin-right: 50px;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-block {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+#button {
+  font-size: 18px;
+  background-color: black;
+  color: #fff;
+  height: 80px;
+  width: 320px;
+  border-radius: 3%;
+}
+.h3 {
+  margin-right: 50px;
+}
